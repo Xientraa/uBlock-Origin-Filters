@@ -1,0 +1,24 @@
+! Title: Xientra's uBlock Origin Filters
+! Expires: 7 days
+! Homepage: https://github.com/Xientraa/uBlock-Origin-Filters
+
+!#include sections/scanlators.txt
+
+! humblebundle.com
+humblebundle.com##[id="site-xpromo-banner"]
+
+! pinterest
+pinterest.*##[data-test-id="giftWrap"]
+pinterest.*##[data-test-id="fullPageSignupModal"]
+pinterest.*##body:style(overflow: auto !important;)
+
+! twitter.com
+twitter.com##div[aria-label*="Trending now"]
+
+! reddit.com
+reddit.com##[class="_2vEf-C2keJaBMY9qk_BxVn"]:has-text(Reddit Premium)
+reddit.com##div[id*="popup"]
+
+!#if env_mobile
+!#include mobile.txt
+!#endif

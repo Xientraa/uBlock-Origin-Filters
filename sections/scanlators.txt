@@ -1,0 +1,8 @@
+! flamescans.org
+flamescans.org##[id="teaser3"]
+flamescans.org##[class="discord-thang"]
+flamescans.org##[class="socialts"]
+flamescans.org##[class="adsbygoogle"]
+
+! luminousscans.com
+luminousscans.com##[id="teaser3"]
