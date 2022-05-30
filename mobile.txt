@@ -1,3 +1,4 @@
 ! reddit
 reddit.com##[class="XPromoPopup m-active"]
+reddit.com##shreddit-experience-tree
 reddit.com##body:style(overflow: auto !important; position: static !important;)
