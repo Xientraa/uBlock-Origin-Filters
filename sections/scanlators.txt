@@ -6,3 +6,9 @@ flamescans.org##[class="adsbygoogle"]
 
 ! luminousscans.com
 luminousscans.com##[id="teaser3"]
+
+! asurascans.com
+asurascans.com##div[class="releases"]:has-text(Advert)
+asurascans.com##div[id="readerarea"] > div
+asurascans.com##a[href="https://asura.gg/discord"]:if-not(select)
+||asura.gg/discord$document

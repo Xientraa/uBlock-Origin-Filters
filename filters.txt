@@ -3,6 +3,7 @@
 ! Homepage: https://github.com/Xientraa/uBlock-Origin-Filters
 
 !#include sections/scanlators.txt
+!#include sections/site-blacklist.txt
 
 ! humblebundle.com
 humblebundle.com##[id="site-xpromo-banner"]
@@ -18,6 +19,12 @@ twitter.com##div[aria-label*="Trending now"]
 ! reddit.com
 reddit.com##[class="_2vEf-C2keJaBMY9qk_BxVn"]:has-text(Reddit Premium)
 reddit.com##div[id*="popup"]
+
+! v3rmillion.net
+v3rmillion.net##div[onclick*="Advert"]
+
+! roblox.com
+roblox.com##li[class="rbx-nav-sponsor"]
 
 !#if env_mobile
 !#include mobile.txt
