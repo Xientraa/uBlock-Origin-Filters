@@ -26,6 +26,12 @@ v3rmillion.net##div[onclick*="Advert"]
 ! roblox.com
 roblox.com##li[class="rbx-nav-sponsor"]
 
+! youtube.com
+youtube.com##tp-yt-paper-dialog
+
+! wakatime.com
+wakatime.com##div[class='swing-down-alert']:has-text(paid plan)
+
 !#if env_mobile
 !#include mobile.txt
 !#endif
