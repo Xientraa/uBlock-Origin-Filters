@@ -15,6 +15,12 @@ pinterest.*##body:style(overflow: auto !important;)
 
 ! twitter.com
 twitter.com##div[aria-label*="Trending now"]
+twitter.com##html:style(overflow: auto !important)
+
+! twitter checkmark
+twitter.com##div[data-testid="activeRoute"]:has(a[href="/i/twitter_blue_sign_up"])
+twitter.com##nav[aria-label="Notifications timelines"] div:has(> a[href="/notifications/verified"])
+twitter.com##div[data-testid="Dropdown"] div:has(> a[href="/i/twitter_blue_sign_up"])
 
 ! reddit.com
 reddit.com##[class="_2vEf-C2keJaBMY9qk_BxVn"]:has-text(Reddit Premium)
@@ -25,12 +31,18 @@ v3rmillion.net##div[onclick*="Advert"]
 
 ! roblox.com
 roblox.com##li[class="rbx-nav-sponsor"]
+roblox.com##div[id="desktop-app-banner"]
 
 ! youtube.com
-! youtube.com##tp-yt-paper-dialog:has-text()
+youtube.com##ytd-mealbar-promo-renderer
 
 ! wakatime.com
 wakatime.com##div[class='swing-down-alert']:has-text(paid plan)
+
+! glassdoor.*
+glassdoor.*##div[id="HardsellOverlay"]
+glassdoor.*##body:style(overflow: auto)
+||glassdoor.*/garnish/static/js/gd-user-hardsell-overlay.bundle.js$script,domain=glassdoor.*
 
 !#if env_mobile
 !#include mobile.txt

@@ -11,4 +11,9 @@ luminousscans.com##[id="teaser3"]
 asurascans.com##div[class="releases"]:has-text(Advert)
 asurascans.com##div[id="readerarea"] > div
 asurascans.com##a[href="https://asura.gg/discord"]:if-not(select)
+
+asura.gg##div[class="releases"]:has-text(Advert)
+asura.gg##a[href="https://asura.gg/discord"]:if-not(select)
+asura.gg##div[id="readerarea"] > div
+
 ||asura.gg/discord$document
